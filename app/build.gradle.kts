@@ -1,3 +1,12 @@
+import java.util.Properties
+
+val envPropsFile = rootProject.file("env.properties")
+val envProps = Properties().apply{
+    if(envPropsFile.exists()){
+        envPropsFile.inputStream().use { load(it)}
+    }
+}
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -7,7 +16,6 @@ plugins {
     alias(libs.plugins.hilt)
     alias(libs.plugins.room)
 }
-
 android {
     namespace = "com.downormal.moviesums"
     compileSdk = 35
@@ -20,7 +28,12 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField("String", "BASE_URL", "\"${envProps["BASE_URL"]}\"")
+        buildConfigField("String", "API_KEY", "\"${envProps["API_KEY"]}\"")
     }
+
+
 
     buildTypes {
         release {
@@ -39,6 +52,7 @@ android {
         jvmTarget = "11"
     }
     buildFeatures {
+        buildConfig = true
         compose = true
     }
 }
