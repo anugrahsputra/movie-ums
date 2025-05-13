@@ -47,4 +47,9 @@
   - BASE_URL and API_KEY environment variables
   - BuildConfig integration for secure access
 
-# Screenshots
+# Screenshotsa
+![Genre Screen](https://raw.githubusercontent.com/anugrahsputra/movie-uns/refs/heads/main/screenshots/genre.png?token=GHSAT0AAAAAAC4SBPEI36B244DULZRF3GDM2BDTDRQ)
+![Movies Screen](https://raw.githubusercontent.com/anugrahsputra/movie-uns/refs/heads/main/screenshots/movies.png?token=GHSAT0AAAAAAC4SBPEIA4CPCFICVZVBVELG2BDTEHA)
+![Movies Detail](https://raw.githubusercontent.com/anugrahsputra/movie-uns/refs/heads/main/screenshots/movie_detail.png?token=GHSAT0AAAAAAC4SBPEIKYTJPBBGUSKXDUQY2BDTEWA)
+![Movies Detail Trailer](https://raw.githubusercontent.com/anugrahsputra/movie-uns/refs/heads/main/screenshots/movie_detail_trailer.png?token=GHSAT0AAAAAAC4SBPEJCO2ECYWEKBKWFFSC2BDTFFQ)
+![Movies Detail User Review](https://raw.githubusercontent.com/anugrahsputra/movie-uns/refs/heads/main/screenshots/movie_detail_reviews.png?token=GHSAT0AAAAAAC4SBPEIUAYC5QUP6N4BIRZO2BDTFWQ)
