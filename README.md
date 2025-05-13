@@ -47,17 +47,9 @@
   - BASE_URL and API_KEY environment variables
   - BuildConfig integration for secure access
 
-# Screenshots
-<table>
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/anugrahsputra/movie-uns/main/screenshots/genre.png" width="250"/></td>
-    <td><img src="https://raw.githubusercontent.com/anugrahsputra/movie-uns/main/screenshots/movies.png" width="250"/></td>
-  </tr>
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/anugrahsputra/movie-uns/main/screenshots/movie_detail.png" width="250"/></td>
-    <td><img src="https://raw.githubusercontent.com/anugrahsputra/movie-uns/main/screenshots/movie_detail_trailer.png" width="250"/></td>
-  </tr>
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/anugrahsputra/movie-uns/main/screenshots/movie_detail_reviews.png" width="250"/></td>
-  </tr>
-</table>
+# Screenshotsa
+![Genre Screen](https://raw.githubusercontent.com/anugrahsputra/movie-uns/refs/heads/main/screenshots/genre.png?token=GHSAT0AAAAAAC4SBPEI36B244DULZRF3GDM2BDTDRQ)
+![Movies Screen](https://raw.githubusercontent.com/anugrahsputra/movie-uns/refs/heads/main/screenshots/movies.png?token=GHSAT0AAAAAAC4SBPEIA4CPCFICVZVBVELG2BDTEHA)
+![Movies Detail](https://raw.githubusercontent.com/anugrahsputra/movie-uns/refs/heads/main/screenshots/movie_detail.png?token=GHSAT0AAAAAAC4SBPEIKYTJPBBGUSKXDUQY2BDTEWA)
+![Movies Detail Trailer](https://raw.githubusercontent.com/anugrahsputra/movie-uns/refs/heads/main/screenshots/movie_detail_trailer.png?token=GHSAT0AAAAAAC4SBPEJCO2ECYWEKBKWFFSC2BDTFFQ)
+![Movies Detail User Review](https://raw.githubusercontent.com/anugrahsputra/movie-uns/refs/heads/main/screenshots/movie_detail_reviews.png?token=GHSAT0AAAAAAC4SBPEIUAYC5QUP6N4BIRZO2BDTFWQ)
