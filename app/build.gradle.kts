@@ -71,6 +71,8 @@ dependencies {
     implementation (libs.androidx.hilt.navigation.compose)
     implementation(libs.androidx.room.ktx)
     implementation(libs.coil.compose)
+    implementation (libs.paging.runtime.ktx)
+    implementation (libs.androidx.paging.compose)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

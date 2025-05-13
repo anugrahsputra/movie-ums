@@ -17,6 +17,7 @@ material-icon = "1.7.8"
 hiltNavigationCompose = "1.2.0"
 hiltAndroid = "2.55"
 kotlinKsp = "2.1.20-1.0.31"
+paging = "3.3.6"
 room = "2.7.1"
 coil = "2.2.2"
 
@@ -72,6 +73,10 @@ androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-com
 
 #coil
 coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil"}
+
+#paging
+paging-runtime-ktx = { module = "androidx.paging:paging-runtime-ktx", version.ref = "paging" }
+androidx-paging-compose = { module = "androidx.paging:paging-compose", version.ref = "paging" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
