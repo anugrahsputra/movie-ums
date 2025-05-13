@@ -46,6 +46,9 @@
 - API integration configured with:
   - BASE_URL and API_KEY environment variables
   - BuildConfig integration for secure access
+  
+## Design Pattern
+- 
 
 # Screenshotsa
 ![Genre Screen](https://raw.githubusercontent.com/anugrahsputra/movie-uns/refs/heads/main/screenshots/genre.png?token=GHSAT0AAAAAAC4SBPEI36B244DULZRF3GDM2BDTDRQ)
