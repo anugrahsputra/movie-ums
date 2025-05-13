@@ -4,6 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.downormal.moviesums.features.detail.presentation.MovieDetailViewRoot
 import com.downormal.moviesums.features.genres.presentation.GenresViewRoot
 import com.downormal.moviesums.features.movies.presentation.MoviesViewRoot
 
@@ -19,17 +20,21 @@ fun App() {
         navController = navController,
         startDestination = Route.Genres,
     ) {
-        composable <Route.Genres> {
+        composable<Route.Genres> {
             GenresViewRoot(
                 navController = navController
             )
 
         }
-        composable <Route.Movies> {
-            MoviesViewRoot()
+        composable<Route.Movies> {
+            MoviesViewRoot(
+                navController = navController
+            )
         }
-        composable <Route.MovieDetail> { backStackEntry ->
-
+        composable<Route.MovieDetail> { backStackEntry ->
+            MovieDetailViewRoot(
+                navController = navController
+            )
         }
     }
 
