@@ -50,14 +50,14 @@
 # Screenshots
 <table>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/anugrahsputra/movie-uns/refs/heads/main/screenshots/genre.png" width="250"/></td>
-    <td><img src="https://raw.githubusercontent.com/anugrahsputra/movie-uns/refs/heads/main/screenshots/movies.png" width="250"/></td>
+    <td><img src="https://raw.githubusercontent.com/anugrahsputra/movie-uns/main/screenshots/genre.png" width="250"/></td>
+    <td><img src="https://raw.githubusercontent.com/anugrahsputra/movie-uns/main/screenshots/movies.png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/anugrahsputra/movie-uns/refs/heads/main/screenshots/movie_detail.png" width="250"/></td>
-    <td><img src="https://raw.githubusercontent.com/anugrahsputra/movie-uns/refs/heads/main/screenshots/movie_detail_trailer.png" width="250"/></td>
+    <td><img src="https://raw.githubusercontent.com/anugrahsputra/movie-uns/main/screenshots/movie_detail.png" width="250"/></td>
+    <td><img src="https://raw.githubusercontent.com/anugrahsputra/movie-uns/main/screenshots/movie_detail_trailer.png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/anugrahsputra/movie-uns/refs/heads/main/screenshots/movie_detail_reviews.png" width="250"/></td>
+    <td><img src="https://raw.githubusercontent.com/anugrahsputra/movie-uns/main/screenshots/movie_detail_reviews.png" width="250"/></td>
   </tr>
 </table>
