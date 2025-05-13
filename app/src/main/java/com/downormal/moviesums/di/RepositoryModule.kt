@@ -2,6 +2,8 @@ package com.downormal.moviesums.di
 
 import com.downormal.moviesums.features.genres.data.repository.GenresRepositoryImpl
 import com.downormal.moviesums.features.genres.domain.repository.GenresRepository
+import com.downormal.moviesums.features.movies.data.repository.MovieListRepositoryImpl
+import com.downormal.moviesums.features.movies.domain.repository.MovieListRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
@@ -20,4 +22,10 @@ abstract class RepositoryModule {
     abstract fun bindGenresRepository(
         impl: GenresRepositoryImpl
     ): GenresRepository
+
+    @Binds
+    @Singleton
+    abstract fun bindMovieListRepository(
+        impl: MovieListRepositoryImpl
+    ): MovieListRepository
 }

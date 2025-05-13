@@ -2,6 +2,8 @@ package com.downormal.moviesums.di
 
 import com.downormal.moviesums.features.genres.data.remote.GenreRemoteDatasource
 import com.downormal.moviesums.features.genres.data.remote.GenreRemoteDatasourceImpl
+import com.downormal.moviesums.features.movies.data.remote.MovieListDataSource
+import com.downormal.moviesums.features.movies.data.remote.MovieListDataSourceImpl
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
@@ -22,4 +24,10 @@ abstract class DataModule {
     abstract fun bindGenreRemoteDatasource(
         impl: GenreRemoteDatasourceImpl
     ): GenreRemoteDatasource
+
+    @Binds
+    @Singleton
+    abstract fun bindMovieListDatasource(
+        impl: MovieListDataSourceImpl
+    ) : MovieListDataSource
 }
