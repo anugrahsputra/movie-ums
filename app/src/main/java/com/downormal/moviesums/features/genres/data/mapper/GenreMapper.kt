@@ -10,7 +10,7 @@ import com.downormal.moviesums.features.genres.domain.model.Genres
  * Project      : MoviesUMS
  */
 
-fun GenresDto.toGenre(): Genres {
+fun GenresDto.toGenres(): Genres {
     return Genres(
         genres = genres.map { it.toGenre() }
     )
