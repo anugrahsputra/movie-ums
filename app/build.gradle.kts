@@ -73,6 +73,7 @@ dependencies {
     implementation(libs.coil.compose)
     implementation (libs.paging.runtime.ktx)
     implementation (libs.androidx.paging.compose)
+    implementation(libs.youtube.player)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
